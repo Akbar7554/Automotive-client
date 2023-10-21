@@ -215,6 +215,7 @@ const UpdateProduct = () => {
                 className="block ml-2 text-xl font-medium text-gray-400 dark:text-gray-300"
               >
                 Baby-Texi
+                
               </label>
             </div>
             <div className="flex items-center mb-4">
