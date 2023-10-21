@@ -8,7 +8,7 @@ const BrandCard = ({ brands}) => {
   return (
     <Link
       to={`/all-brand/${name}`}
-      className="cursor-pointer mx-10 md:mx-0 p-10 card card-compact md:w-96 bg-gray-800 shadow-xl"
+      className="cursor-pointer mb-5 mx-10 md:mx-0 p-10 card card-compact md:w-96 bg-gray-800 shadow-xl"
     >
       <figure>
         <img className="h-36 w-36" src={image_url} alt="Shoes" />

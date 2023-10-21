@@ -20,7 +20,7 @@ const AllBrand = () => {
       <AdvertiseProduct></AdvertiseProduct>
       {allbrands.map((brand) => {
         return (
-          <div key={brand._id} className="md:m-10">
+          <div key={brand._id} className="md:m-10 p-5">
             <div className="card card-side bg-base-100 shadow-xl  md:text-lg rounded-lg">
               <figure>
                 <img className=" h-64 w-80" src={brand.image} alt="Movie" />
