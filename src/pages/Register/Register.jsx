@@ -30,7 +30,6 @@ const Register = () => {
         console.log(user)
         toast.success("Account Created Successfully!")
       })
-      
       .catch((error) => {
         console.error(error)
       })
