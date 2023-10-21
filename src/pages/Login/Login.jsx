@@ -54,6 +54,7 @@ const Login = () => {
             primary: "black",
             secondary: "#FFFAEE",
           },
+          
         })
         navigate(location?.state ? location.state : "/")
         navigate(location?.accessToken ? location.accessToken : "/")
