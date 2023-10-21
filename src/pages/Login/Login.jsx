@@ -55,6 +55,7 @@ const Login = () => {
             secondary: "#FFFAEE",
           },
         })
+        
         navigate(location?.state ? location.state : "/")
         navigate(location?.accessToken ? location.accessToken : "/")
       })
