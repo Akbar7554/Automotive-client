@@ -36,6 +36,7 @@ const ErrorPage = () => {
             </svg>
             <span>Return Home</span>
           </Link>
+          
         </div>
         <div className="w-1/2 lg:h-full flex lg:items-end justify-center p-4">
           <svg
