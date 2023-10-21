@@ -1,0 +1,48 @@
+[
+    {
+      "id" : 1,
+      "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
+      "category_id": "1",
+      "name": "BMW",
+      "image_url": "https://i.ibb.co/XDRFkgL/bmw.png"
+    },
+    {
+      "id" : 2,
+      "_id": "0282e0e58a5c404fbd12ab6ae58a5eds",
+      "category_id": "2",
+      "name": "Mercedes",
+      "image_url": "https://i.ibb.co/MPh0Gzt/mercedes.png"
+    },
+    {
+      "id" : 3,
+      "_id": "c404fbd15261f11c2ab6a0282e0e58a5",
+      "category_id": "3",
+      "name": "Lamborghini",
+      "image_url": "https://i.ibb.co/vQbYKf3/lamborgini.png"
+    },
+    {
+      "id" : 4,
+      "_id": "0282e0e15261f11c2ab6a58a5c404fbd",
+      "category_id": "4",
+      "name": "Ferrari",
+      "image_url": "https://i.ibb.co/M9qWWqv/Ferrari.png"
+    },
+    {
+      "id" : 5,
+      "_id": "e58a5c404fbd0282e015261f11c2ab6a",
+      "category_id": "5",
+      "name": "Tesla",
+      "image_url": "https://i.ibb.co/jykBWJG/tesla.png"
+    },
+    {
+      "id" : 6,
+      "_id": "028261f11e58a5c404c2ab6ae0fbd152",
+      "category_id": "6",
+      "name": "Porsche",
+      "image_url": "https://i.ibb.co/ZX10w3M/porsche.png"
+    }
+  ]
+
+
+
+  
