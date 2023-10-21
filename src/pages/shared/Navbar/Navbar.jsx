@@ -47,7 +47,7 @@ const Navbar = () => {
       <li style={{ NavLinkStyle }}>
         <NavLink
           style={{
-            color: "white",
+            color: "red",
             fontWeight: "bold",
             fontSize: "18px",
           }}
@@ -59,7 +59,7 @@ const Navbar = () => {
       <li>
         <NavLink
           style={{
-            color: "white",
+            color: "red",
             fontWeight: "bold",
             fontSize: "18px",
           }}
@@ -71,7 +71,7 @@ const Navbar = () => {
       <li>
         <NavLink
           style={{
-            color: "white",
+            color: "red",
             fontWeight: "bold",
             fontSize: "18px",
           }}
