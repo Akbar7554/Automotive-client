@@ -12,7 +12,7 @@ const ViewProduct = () => {
     const { _id, name, brandName, price, rating, image, cars, message } =
       product
     console.log(product)
-    fetch(`https://automotive-server-ibnlr8cev-akbar7554.vercel.app/add-cart`, {
+    fetch(`https://automotive-server-gamma.vercel.app/add-cart`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

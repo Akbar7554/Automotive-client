@@ -32,16 +32,13 @@ const UpdateProduct = () => {
     }
     console.log(newProduct)
 
-    fetch(
-      `https://automotive-server-ibnlr8cev-akbar7554.vercel.app/product/${_id}`,
-      {
-        method: "PUT",
-        headers: {
-          "content-type": "application/json",
-        },
-        body: JSON.stringify(newProduct),
-      }
-    )
+    fetch(`https://automotive-server-gamma.vercel.app/product/${_id}`, {
+      method: "PUT",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(newProduct),
+    })
       .then((res) => res.json())
       .then((data) => {
         console.log(data)
@@ -215,7 +212,6 @@ const UpdateProduct = () => {
                 className="block ml-2 text-xl font-medium text-gray-400 dark:text-gray-300"
               >
                 Baby-Texi
-                
               </label>
             </div>
             <div className="flex items-center mb-4">

@@ -21,12 +21,9 @@ const SingleMyCart = ({ product }) => {
     }).then((result) => {
       if (result.isConfirmed) {
         //   console.log("Deleted")
-        fetch(
-          `https://automotive-server-ibnlr8cev-akbar7554.vercel.app/product/${_id}`,
-          {
-            method: "DELETE",
-          }
-        )
+        fetch(`https://automotive-server-gamma.vercel.app/product/${_id}`, {
+          method: "DELETE",
+        })
           .then((res) => res.json())
           .then((data) => {
             console.log(data)

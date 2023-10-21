@@ -19,7 +19,7 @@ const AddProduct = () => {
     const newProduct = { name, brandName, price, rating, image, cars, message }
     console.log(newProduct)
 
-    fetch("https://automotive-server-ibnlr8cev-akbar7554.vercel.app/product", {
+    fetch("https://automotive-server-gamma.vercel.app/product", {
       method: "POST",
       headers: {
         "content-type": "application/json",

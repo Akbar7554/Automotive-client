@@ -37,9 +37,7 @@ const router = createBrowserRouter([
           </PrivateRoutes>
         ),
         loader: () =>
-          fetch(
-            "https://automotive-server-ibnlr8cev-akbar7554.vercel.app/allCartData"
-          ),
+          fetch("https://automotive-server-gamma.vercel.app/allCartData"),
       },
       {
         path: "/update-product/:id",
@@ -50,7 +48,7 @@ const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://automotive-server-ibnlr8cev-akbar7554.vercel.app/product/${params.id}`
+            `https://automotive-server-gamma.vercel.app/product/${params.id}`
           ),
       },
       {
@@ -62,7 +60,7 @@ const router = createBrowserRouter([
         ),
         loader: ({ params }) =>
           fetch(
-            `https://automotive-server-ibnlr8cev-akbar7554.vercel.app/product/${params.id}`
+            `https://automotive-server-gamma.vercel.app/product/${params.id}`
           ),
       },
       {
@@ -70,7 +68,7 @@ const router = createBrowserRouter([
         element: <AllBrand></AllBrand>,
         loader: ({ params }) =>
           fetch(
-            `https://automotive-server-ibnlr8cev-akbar7554.vercel.app/brand/${params.brandName}`
+            `https://automotive-server-gamma.vercel.app/brand/${params.brandName}`
           ),
       },
       {
