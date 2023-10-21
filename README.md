@@ -15,3 +15,5 @@ Currently, two official plugins are available:
 - Now clicking any button user see login page this page is login page where user can authenticate by email or gmail. If user not login user see register page and this page user see some input field. if user registered successfully. this time user go view or update page.
 - view page has some data and see add to cart button. user click the button the cart show in my cart route. here user delete the cart which he selected one.
 - add product button has some input field and add button. here user field all the valid information and click the button. user create cart. user can update information by clicking update route. update route has some field information. user can update all information. 
+
+
